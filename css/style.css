@@ -90,3 +90,8 @@ header span:hover{
   background-color: #626262;
   color: white;
 }
+
+footer {
+  text-align: center;
+  color: white;
+}
