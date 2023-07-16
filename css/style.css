@@ -4,3 +4,45 @@
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+}
+
+.row {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.column {
+  flex-direction: column;
+
+}
+
+/* Header */
+
+header {
+  padding: 10px;
+  background-color: #282828;
+}
+
+header .btn {
+  background-color: #414141;
+  color: #888888;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #888888;
+  color: #414141;
+}
+
+header span{
+  padding: 15px;
+  background-color: #626262;
+  color: white;
+}
+
+/* Main */
